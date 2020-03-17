@@ -30,6 +30,19 @@ def bubble_sort(arr):
 
 
 # STRETCH: implement the Count Sort function below
-def count_sort(arr, maximum=-1):
+# def count_sort(arr, maximum=-1):
+#     m = maximum + 1
+#     # create new empty array to store count of each item
+#     count = [0] * m
 
-    return arr
+#     # count occurences for each item in arr
+#     for a in arr:
+#         count[a] += 1
+
+#     i = 0
+#     for a in range(m):
+#         for c in range(count[a]):
+#             arr[i] = a
+#             i += 1
+
+#     return arr
